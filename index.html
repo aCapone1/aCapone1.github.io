@@ -1,96 +1,211 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Personal webpage of [Your Name]">
-    <title>[Your Name] - Personal Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            text-align: center;
-            padding: 1em 0;
-        }
-        nav ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            background-color: #333;
-            overflow: hidden;
-        }
-        nav ul li {
-            display: inline;
-            padding: 15px;
-        }
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            padding: 14px 20px;
-            display: inline-block;
-        }
-        nav ul li a:hover {
-            background-color: #ddd;
-            color: black;
-        }
-        section {
-            padding: 20px;
-            margin: 20px;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #333;
-            color: white;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Welcome to [Your Name]'s Personal Webpage</h1>
-        <p>A little corner of the web about me.</p>
-    </header>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    <nav>
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <title>Jon Barron</title>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Welcome to my website! I am a Postdoc at the Robotics Institute, Carnegie Mellon University with Prof. Jeff Schneider. My research focuses on machine learning, Bayesian optimization, and robotics. I</p>
-    </section>
+    <meta name="author" content="Jon Barron">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    
+  </head>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <p>Here are some of the projects I have worked on:</p>
-        <ul>
-            <li>Project 1: Description of the project.</li>
-            <li>Project 2: Description of the project.</li>
-            <li>Project 3: Description of the project.</li>
-        </ul>
-    </section>
+  <body>
+    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr style="padding:0px">
+              <td style="padding:2.5%;width:63%;vertical-align:middle">
+                <p class="name" style="text-align: center;">
+                  Jon Barron
+                </p>
+                <p>I'm a research scientist at <a href="https://deepmind.google/">Google DeepMind</a> in San Francisco, where I lead a small team that mostly works on <a href="https://www.matthewtancik.com/nerf">NeRF</a>.
+                </p>
+                <p>
+                  At Google I've worked on <a href="https://www.google.com/glass/start/">Glass</a>,  <a href="https://ai.googleblog.com/2014/04/lens-blur-in-new-google-camera-app.html">Lens Blur</a>, <a href="https://ai.googleblog.com/2014/10/hdr-low-light-and-high-dynamic-range.html">HDR+</a>, <a href="https://blog.google/products/google-ar-vr/introducing-next-generation-jump/">VR</a>, <a href="https://ai.googleblog.com/2017/10/portrait-mode-on-pixel-2-and-pixel-2-xl.html">Portrait Mode</a>, <a href="https://ai.googleblog.com/2020/12/portrait-light-enhancing-portrait.html">Portrait Light</a>, and <a href="https://blog.google/products/maps/three-maps-updates-io-2022/">Maps</a>. I did my PhD at <a href="http://www.eecs.berkeley.edu/">UC Berkeley</a>, where I was advised by <a href="http://www.cs.berkeley.edu/~malik/">Jitendra Malik</a>. I've received the <a href="https://www.thecvf.com/?page_id=413#YRA">PAMI Young Researcher Award</a>.
+                </p>
+                <p style="text-align:center">
+                  <a href="mailto:jonbarron@gmail.com">Email</a> &nbsp;/&nbsp;
+                  <a href="data/JonBarron-CV.pdf">CV</a> &nbsp;/&nbsp;
+                  <a href="data/JonBarron-bio.txt">Bio</a> &nbsp;/&nbsp;
+                  <a href="https://scholar.google.com/citations?hl=en&user=jktWnL8AAAAJ">Scholar</a> &nbsp;/&nbsp;
+                  <a href="https://twitter.com/jon_barron">Twitter</a> &nbsp;/&nbsp;
+                  <a href="https://github.com/jonbarron/">Github</a>
+                </p>
+              </td>
+              <td style="padding:2.5%;width:40%;max-width:40%">
+                <a href="images/JonBarron.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/JonBarron.jpg" class="hoverZoomLink"></a>
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+              <td style="padding:20px;width:100%;vertical-align:middle">
+                <h2>Research</h2>
+                <p>
+                  I'm interested in computer vision, deep learning, generative AI, and image processing. Most of my research is about inferring the physical world (shape, motion, color, light, etc) from images, usually with radiance fields. Some papers are <span class="highlight">highlighted</span>.
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Feel free to reach out to me through the following platforms:</p>
-        <ul>
-            <li>Email: [Your Email Address]</li>
-            <li>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn Profile</a></li>
-        </ul>
-    </section>
+    <tr onmouseout="nerfcasting_stop()" onmouseover="nerfcasting_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='nerfcasting_image'><video  width=100% muted autoplay loop>
+          <source src="images/nerfcasting.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/nerfcasting.jpg' width=100%>
+        </div>
+        <script type="text/javascript">
+          function nerfcasting_start() {
+            document.getElementById('nerfcasting_image').style.opacity = "1";
+          }
 
-    <footer>
-        <p>&copy; 2024 [Your Name] - All rights reserved.</p>
-    </footer>
-</body>
+          function nerfcasting_stop() {
+            document.getElementById('nerfcasting_image').style.opacity = "0";
+          }
+          nerfcasting_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://nerf-casting.github.io/">
+          <span class="papertitle">NeRF-Casting: Improved View-Dependent Appearance with Consistent Reflections</span>
+        </a>
+        <br>
+				
+        <a href="https://dorverbin.github.io/">Dor Verbin</a>,
+        <a href="https://pratulsrinivasan.github.io/">Pratul Srinivasan</a>,
+				<a href="https://phogzone.com/">Peter Hedman</a>,
+				<a href="https://benattal.github.io/">Benjamin Attal</a>, <br>
+				<a href="https://bmild.github.io/">Ben Mildenhall</a>,
+				<a href="https://szeliski.org/RichardSzeliski.htm">Richard Szeliski</a>,
+				<strong>Jonathan T. Barron</strong>
+        <br>
+        <em>SIGGRAPH Asia</em>, 2024
+        <br>
+        <a href="https://nerf-casting.github.io/">project page</a>
+        /
+        <a href="https://arxiv.org/abs/2405.14871">arXiv</a>
+        <p></p>
+        <p>
+        Carefully casting reflection rays lets us synthesize photorealistic specularities in real-world scenes.
+        </p>
+      </td>
+    </tr>
+
+
+    <tr onmouseout="flash_cache_stop()" onmouseover="flash_cache_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='flash_cache_image'><video  width=100% muted autoplay loop>
+          <source src="images/flash_cache.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/flash_cache.jpg' width=100%>
+        </div>
+        <script type="text/javascript">
+          function flash_cache_start() {
+            document.getElementById('flash_cache_image').style.opacity = "1";
+          }
+
+          function flash_cache_stop() {
+            document.getElementById('flash_cache_image').style.opacity = "0";
+          }
+          flash_cache_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://benattal.github.io/flash-cache/">
+          <span class="papertitle">Flash Cache: Reducing Bias in Radiance Cache Based Inverse Rendering</span>
+        </a>
+        <br>
+				<a href="https://benattal.github.io/">Benjamin Attal</a>,
+        <a href="https://dorverbin.github.io/">Dor Verbin</a>,
+        <a href="https://bmild.github.io/">Ben Mildenhall</a>,
+        <a href="https://phogzone.com/">Peter Hedman</a>, <br>
+				<strong>Jonathan T. Barron</strong>,
+        <a href="https://www.cs.cmu.edu/~motoole2/">Matthew O'Toole</a>,
+        <a href="https://pratulsrinivasan.github.io/">Pratul P. Srinivasan</a>
+        <br>
+        <em>ECCV</em>, 2024 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
+        <br>
+        <a href="https://benattal.github.io/flash-cache/">project page</a>
+        /
+        <a href="TODO">arXiv</a>
+        <p></p>
+        <p>
+          A more physically-accurate inverse rendering system based on radiance caching for recovering geometry, materials, and lighting from RGB images of an object or scene.
+        </p>
+      </td>
+    </tr>
+
+
+
+    <tr onmouseout="nuvo_stop()" onmouseover="nuvo_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='nuvo_image'><video  width=100% muted autoplay loop>
+          <source src="images/nuvo.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/nuvo.jpg' width=100%>
+        </div>
+        <script type="text/javascript">
+          function nuvo_start() {
+            document.getElementById('nuvo_image').style.opacity = "1";
+          }
+
+          function nuvo_stop() {
+            document.getElementById('nuvo_image').style.opacity = "0";
+          }
+          nuvo_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://pratulsrinivasan.github.io/nuvo/">
+          <span class="papertitle">Nuvo: Neural UV Mapping for Unruly 3D Representations</span>
+        </a>
+        <br>
+        <a href="https://pratulsrinivasan.github.io/">Pratul Srinivasan</a>,
+        <a href="http://stephangarbin.com/">Stephan J. Garbin</a>,
+        <a href="https://dorverbin.github.io/">Dor Verbin</a>,
+		<strong>Jonathan T. Barron</strong>,
+        <a href="https://bmild.github.io/">Ben Mildenhall</a>
+        <br>
+        <em>ECCV</em>, 2024
+        <br>
+        <a href="https://pratulsrinivasan.github.io/nuvo/">project page</a>
+        /
+        <a href="https://www.youtube.com/watch?v=hmJiOSTDQZI">video</a>
+        /
+        <a href="http://arxiv.org/abs/2312.05283">arXiv</a>
+        <p></p>
+        <p>
+        Neural fields let you recover editable UV mappings for the challenging geometries produced by NeRF-like models.
+        </p>
+      </td>
+    </tr>
+            
+            
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:0px">
+                <br>
+                <p style="text-align:right;font-size:small;">
+                  Feel free to steal this website's <a href="https://github.com/jonbarron/jonbarron_website">source code</a>. <strong>Do not</strong> scrape the HTML from this page itself, as it includes analytics tags that you do not want on your own website &mdash; use the github code instead. Also, consider using <a href="https://leonidk.com/">Leonid Keselman</a>'s <a href="https://github.com/leonidk/new_website">Jekyll fork</a> of this page.
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+    </table>
+  </body>
 </html>
