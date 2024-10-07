@@ -3,7 +3,8 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    <title>Alexandre Capone</title>
+    <!-- <title>Alexandre Capone</title> -->
+    <!-- <h3>Alexandre Capone</h3> -->
 
     <meta name="author" content="Alexandre Capone">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,12 +21,13 @@
             <tr style="padding:0px">
               <td style="padding:2.5%;width:63%;vertical-align:middle">
                 <p class="name" style="text-align: center;">
-                  Alexandre Capone
+                  <h2 style="text-align: center;">Alexandre Capone</h2>
                 </p>
-                <p>I'm a postdoctoral research scientist at <a href="https://www.ri.cmu.edu/">Carnegie Mellon University</a> with Prof. <a href="https://www.cs.cmu.edu/~schneide/">Jeff Schneider</a> in Pittsburgh, where I work on autonomous driving, nuclear fusion, and uncertainty quantification.
+                <p>I'm a postdoctoral research scientist at <a href="https://www.ri.cmu.edu/">Carnegie Mellon University</a> with <a href="https://www.cs.cmu.edu/~schneide/">Jeff Schneider</a>. I'm interested in various topics from machine learning and control theory. These include reinforcement learning, uncertainty quantification, Bayesian optimization and safe control. I apply my research to autonomous driving, nuclear fusion, and other robotics-related topics. 
                 </p>
                 <p>
-                  I did my PhD at the <a href="https://www.tum.de/en/">Technical University of Munich</a>, where I was advised by <a href="https://www.professoren.tum.de/en/hirche-sandra">Sandra Hirche</a>.
+                  I did my PhD at the <a href="https://www.tum.de/en/">Technical University of Munich</a>, where I was advised by <a href="https://www.professoren.tum.de/en/hirche-sandra">Sandra Hirche</a>. I was also a visiting researcher in 2022 at Caltech with <a href="http://ames.caltech.edu/">Aaron Ames</a>
+
                 </p>
                 <p style="text-align:center">
                   <a href="mailto:acapone2@andrew.cmu.edu">Email</a> &nbsp;/&nbsp;
@@ -33,174 +35,513 @@
                   <!-- <a href="data/JonBarron-bio.txt">Bio</a> &nbsp;/&nbsp; -->
                   <a href="https://scholar.google.com/citations?user=VD_C8GcAAAAJ&hl=en">Scholar</a> &nbsp;/&nbsp;
                   <!-- <a href="https://twitter.com/jon_barron">Twitter</a> &nbsp;/&nbsp; -->
+                  <a href="https://www.linkedin.com/in/alexandre-c-92b678134/">Linkedin</a> &nbsp;/&nbsp;
                   <a href="https://github.com/aCapone1">Github</a>
                 </p>
               </td>
               <td style="padding:2.5%;width:40%;max-width:40%">
-                <a href="data/foto_alex.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="data/foto_alex.jpg" class="hoverZoomLink"></a>
+                <a href="data/foto_alex.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius:20%;" alt="profile photo" src="data/foto_alex.jpg" class="hoverZoomLink"></a>
               </td>
             </tr>
           </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
-              <td style="padding:20px;width:100%;vertical-align:middle">
-                <h2>Research</h2>
-                <p>
-                  I'm interested in reinforcement learning, uncertainty quantification and safety. I apply my research to autonomous driving, nuclear fusion, and other robotics-related topics.
-                   <!-- Some papers are <span class="highlight">highlighted</span>. -->
-                </p>
+          <table style="width:100%;border:0px;border-spacing:15px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+            
+            <tr>
+              <h3 border-spacing:15px>      Publications</h3>
+
+              <!-- <td style="padding:20px;width:25%;vertical-align:middle">
+                <embed src="file_name.pdf" width="800px" height="2100px" />
+                <embed src="data/idea_SMPC (1)-1.png" alt="diffusion-es" width="240" height="120">
+              </td> -->
+              For an up-to-date list of my publications, check out my <a href="https://scholar.google.com/citations?user=VD_C8GcAAAAJ&hl=en">Google scholar profile</a>.
+
+              <td width="100%" valign="middle">
+                  <papertitle>Online Constraint Tightening in Stochastic Model Predictive Control: A Regression Approach
+                <br>
+                <strong>Alexandre Capone</strong>, Tim Brüdigam, Sandra Hirche
+                <br>
+                <em>IEEE Transactions on Automatic Control</em> 2024
+                <br>
+                <a href="https://arxiv.org/abs/2310.02942">arXiv</a> / 
+                <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10612220">pdf</a> 
+                <!-- <a href="https://diffusion-es.github.io/">website</a>  -->
+  
               </td>
             </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-
-    <tr onmouseout="nerfcasting_stop()" onmouseover="nerfcasting_start()">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='nerfcasting_image'><video  width=100% muted autoplay loop>
-          <source src="images/nerfcasting.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video></div>
-          <img src='images/nerfcasting.jpg' width=100%>
-        </div>
-        <script type="text/javascript">
-          function nerfcasting_start() {
-            document.getElementById('nerfcasting_image').style.opacity = "1";
-          }
-
-          function nerfcasting_stop() {
-            document.getElementById('nerfcasting_image').style.opacity = "0";
-          }
-          nerfcasting_stop()
-        </script>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://nerf-casting.github.io/">
-          <span class="papertitle">NeRF-Casting: Improved View-Dependent Appearance with Consistent Reflections</span>
-        </a>
-        <br>
-				
-        <a href="https://dorverbin.github.io/">Dor Verbin</a>,
-        <a href="https://pratulsrinivasan.github.io/">Pratul Srinivasan</a>,
-				<a href="https://phogzone.com/">Peter Hedman</a>,
-				<a href="https://benattal.github.io/">Benjamin Attal</a>, <br>
-				<a href="https://bmild.github.io/">Ben Mildenhall</a>,
-				<a href="https://szeliski.org/RichardSzeliski.htm">Richard Szeliski</a>,
-				<strong>Jonathan T. Barron</strong>
-        <br>
-        <em>SIGGRAPH Asia</em>, 2024
-        <br>
-        <a href="https://nerf-casting.github.io/">project page</a>
-        /
-        <a href="https://arxiv.org/abs/2405.14871">arXiv</a>
-        <p></p>
-        <p>
-        Carefully casting reflection rays lets us synthesize photorealistic specularities in real-world scenes.
-        </p>
-      </td>
-    </tr>
-
-
-    <tr onmouseout="flash_cache_stop()" onmouseover="flash_cache_start()">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='flash_cache_image'><video  width=100% muted autoplay loop>
-          <source src="images/flash_cache.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video></div>
-          <img src='images/flash_cache.jpg' width=100%>
-        </div>
-        <script type="text/javascript">
-          function flash_cache_start() {
-            document.getElementById('flash_cache_image').style.opacity = "1";
-          }
-
-          function flash_cache_stop() {
-            document.getElementById('flash_cache_image').style.opacity = "0";
-          }
-          flash_cache_stop()
-        </script>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://benattal.github.io/flash-cache/">
-          <span class="papertitle">Flash Cache: Reducing Bias in Radiance Cache Based Inverse Rendering</span>
-        </a>
-        <br>
-				<a href="https://benattal.github.io/">Benjamin Attal</a>,
-        <a href="https://dorverbin.github.io/">Dor Verbin</a>,
-        <a href="https://bmild.github.io/">Ben Mildenhall</a>,
-        <a href="https://phogzone.com/">Peter Hedman</a>, <br>
-				<strong>Jonathan T. Barron</strong>,
-        <a href="https://www.cs.cmu.edu/~motoole2/">Matthew O'Toole</a>,
-        <a href="https://pratulsrinivasan.github.io/">Pratul P. Srinivasan</a>
-        <br>
-        <em>ECCV</em>, 2024 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
-        <br>
-        <a href="https://benattal.github.io/flash-cache/">project page</a>
-        /
-        <a href="TODO">arXiv</a>
-        <p></p>
-        <p>
-          A more physically-accurate inverse rendering system based on radiance caching for recovering geometry, materials, and lighting from RGB images of an object or scene.
-        </p>
-      </td>
-    </tr>
-
-
-
-    <tr onmouseout="nuvo_stop()" onmouseover="nuvo_start()">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='nuvo_image'><video  width=100% muted autoplay loop>
-          <source src="images/nuvo.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video></div>
-          <img src='images/nuvo.jpg' width=100%>
-        </div>
-        <script type="text/javascript">
-          function nuvo_start() {
-            document.getElementById('nuvo_image').style.opacity = "1";
-          }
-
-          function nuvo_stop() {
-            document.getElementById('nuvo_image').style.opacity = "0";
-          }
-          nuvo_stop()
-        </script>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://pratulsrinivasan.github.io/nuvo/">
-          <span class="papertitle">Nuvo: Neural UV Mapping for Unruly 3D Representations</span>
-        </a>
-        <br>
-        <a href="https://pratulsrinivasan.github.io/">Pratul Srinivasan</a>,
-        <a href="http://stephangarbin.com/">Stephan J. Garbin</a>,
-        <a href="https://dorverbin.github.io/">Dor Verbin</a>,
-		<strong>Jonathan T. Barron</strong>,
-        <a href="https://bmild.github.io/">Ben Mildenhall</a>
-        <br>
-        <em>ECCV</em>, 2024
-        <br>
-        <a href="https://pratulsrinivasan.github.io/nuvo/">project page</a>
-        /
-        <a href="https://www.youtube.com/watch?v=hmJiOSTDQZI">video</a>
-        /
-        <a href="http://arxiv.org/abs/2312.05283">arXiv</a>
-        <p></p>
-        <p>
-        Neural fields let you recover editable UV mappings for the challenging geometries produced by NeRF-like models.
-        </p>
-      </td>
-    </tr>
+  
             
             
+            <tr>
+              <!-- <td style="padding:20px;width:25%;vertical-align:middle">
+                <embed src="file_name.pdf" width="800px" height="2100px" />
+                <embed src="data/idea_SMPC (1)-1.png" alt="diffusion-es" width="240" height="120">
+              </td> -->
+              <td width="100%" valign="middle">
+                  <papertitle>Sharp Calibrated Gaussian Processes
+                <br>
+                <strong>Alexandre Capone</strong>, Sandra Hirche, Geoff Pleiss
+                <br>
+                <em>NeurIPS</em> 2023
+                <br>
+                <a href="https://arxiv.org/abs/2302.11961">arXiv</a> / 
+                <a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/7319b7561ffe5e2f6419acd4a2f52d6b-Paper-Conference.pdf">pdf</a> 
+                <!-- <a href="https://diffusion-es.github.io/">website</a>  -->
+  
+              </td>
+            </tr>
+            
+            <tr>
+              <!-- <td style="padding:20px;width:25%;vertical-align:middle">
+                <embed src="file_name.pdf" width="800px" height="2100px" />
+                <embed src="data/idea_SMPC (1)-1.png" alt="diffusion-es" width="240" height="120">
+              </td> -->
+              <td width="100%" valign="middle">
+                  <papertitle>Learning-based prescribed-time safety for control of unknown systems with control barrier
+                    functions
+                <br>
+                Tzu-Yuan Huang, Sihua Zhang, Xiaobing Dai, <strong>Alexandre Capone</strong>, Velimir Todorovski, Stefan Sosnowski, and
+                Sandra Hirche. 
+                <br>
+                <em>IEEE Control Systems Letters</em> 2024
+                <br>
+                <a href="https://arxiv.org/abs/2403.08054">arXiv</a> / 
+                <a href="https://arxiv.org/pdf/2403.08054">pdf</a> 
+                <!-- <a href="https://diffusion-es.github.io/">website</a>  -->
+  
+              </td>
+            </tr>
+            
+            <tr>
+              <!-- <td style="padding:20px;width:25%;vertical-align:middle">
+                <embed src="file_name.pdf" width="800px" height="2100px" />
+                <embed src="data/idea_SMPC (1)-1.png" alt="diffusion-es" width="240" height="120">
+              </td> -->
+              <td width="100%" valign="middle">
+                  <papertitle>Gaussian process uniform error bounds with unknown
+                    hyperparameters for safety-critical applications
+                <br>
+                <strong>Alexandre Capone</strong>, Armin Lederer, Sandra Hirche
+                <br>
+                <em>ICML</em> 2022
+                <br>
+                <a href="https://arxiv.org/abs/2109.02606">arXiv</a> / 
+                <a href="https://proceedings.mlr.press/v162/capone22a/capone22a.pdf">pdf</a> 
+                <!-- <a href="https://diffusion-es.github.io/">website</a>  -->
+  
+              </td>
+            </tr>
+            
+            <tr>
+              <!-- <td style="padding:20px;width:25%;vertical-align:middle">
+                <embed src="file_name.pdf" width="800px" height="2100px" />
+                <embed src="data/idea_SMPC (1)-1.png" alt="diffusion-es" width="240" height="120">
+              </td> -->
+              <td width="100%" valign="middle">
+                  <papertitle>Backstepping tracking control using Gaussian processes
+                    with event-triggered online learning
+                <br>
+                Junjie Jiao, <strong>Alexandre Capone</strong>, Sandra Hirche
+                <br>
+                <em>IEEE Control Systems Letters</em> 2022
+                <br>
+                <!-- <a href="https://arxiv.org/abs/2310.02942">arXiv</a> /  -->
+                <a href="https://mediatum.ub.tum.de/doc/1661789/document.pdf">pdf</a> 
+                <!-- <a href="https://diffusion-es.github.io/">website</a>  -->
+  
+              </td>
+            </tr>
+            
+            <tr>
+              <!-- <td style="padding:20px;width:25%;vertical-align:middle">
+                <embed src="file_name.pdf" width="800px" height="2100px" />
+                <embed src="data/idea_SMPC (1)-1.png" alt="diffusion-es" width="240" height="120">
+              </td> -->
+              <td width="100%" valign="middle">
+                  <papertitle>Data selection for multi-task learning
+                    under dynamic constraints
+                <br>
+                <strong>Alexandre Capone</strong>, Armin Lederer, Jonas Umlauft, Sandra Hirche
+                <br>
+                <em>IEEE Control Systems Letters</em> 2021
+                <br>
+                <a href="https://arxiv.org/abs/2005.03270">arXiv</a> / 
+                <a href="https://mediatum.ub.tum.de/doc/1554000/99849.pdf">pdf</a> 
+                <!-- <a href="https://diffusion-es.github.io/">website</a>  -->
+  
+              </td>
+            </tr>
+            
+            <tr>
+              <!-- <td style="padding:20px;width:25%;vertical-align:middle">
+                <embed src="file_name.pdf" width="800px" height="2100px" />
+                <embed src="data/idea_SMPC (1)-1.png" alt="diffusion-es" width="240" height="120">
+              </td> -->
+              <td width="100%" valign="middle">
+                  <papertitle>
+                    How training data impacts performance
+                    in learning-based control
+                <br>
+                Armin Lederer, <strong>Alexandre Capone</strong>, Jonas Umlauft, Sandra Hirche
+                <br>
+                <em>IEEE Control Systems Letters</em> 2021
+                <br>
+                <a href="https://arxiv.org/abs/2005.12062">arXiv</a> / 
+                <a href="https://mediatum.ub.tum.de/doc/1553712/document.pdf">pdf</a> 
+                <!-- <a href="https://diffusion-es.github.io/">website</a>  -->
+  
+              </td>
+            </tr>
+            
+            <tr>
+              <!-- <td style="padding:20px;width:25%;vertical-align:middle">
+                <embed src="file_name.pdf" width="800px" height="2100px" />
+                <embed src="data/idea_SMPC (1)-1.png" alt="diffusion-es" width="240" height="120">
+              </td> -->
+              <td width="100%" valign="middle">
+                  <papertitle>Backstepping for partially unknown nonlinear systems using Gaussian
+                    processes
+                <br>
+                <strong>Alexandre Capone</strong>, Sandra Hirche
+                <br>
+                <em>IEEE Control Systems Letters</em> 2019
+                <br>
+                <!-- <a href="https://arxiv.org/abs/2310.02942">arXiv</a> /  -->
+                <a href="https://mediatum.ub.tum.de/doc/1471354/210910.pdf">pdf</a> 
+                <!-- <a href="https://diffusion-es.github.io/">website</a>  -->
+  
+              </td>
+            </tr>
+            
+
+               
+            <tr>
+              <!-- <td style="padding:20px;width:25%;vertical-align:middle">
+                <embed src="file_name.pdf" width="800px" height="2100px" />
+                <embed src="data/idea_SMPC (1)-1.png" alt="diffusion-es" width="240" height="120">
+              </td> -->
+              <td width="100%" valign="middle">
+                  <papertitle>Computation-aware learning for
+                    stable control with Gaussian process
+                <br>
+                Wenhan Cao, <strong>Alexandre Capone</strong>, Rishabh Yadav, Sandra Hirche, Wei Pan
+                <br>
+                <em>RSS</em> 2024
+                <br>
+                <a href="https://arxiv.org/abs/2406.02272">arXiv</a> / 
+                <!-- <a href="https://mediatum.ub.tum.de/doc/1616375/q6a02fd6kacjvqhw30m8mp8vk.06_EI_Poster_Abstract.pdf">pdf</a>  -->
+                <!-- <a href="https://diffusion-es.github.io/">website</a>  -->
+  
+              </td>
+            </tr>
+            
+
+            <tr>
+              <!-- <td style="padding:20px;width:25%;vertical-align:middle">
+                <embed src="file_name.pdf" width="800px" height="2100px" />
+                <embed src="data/idea_SMPC (1)-1.png" alt="diffusion-es" width="240" height="120">
+              </td> -->
+              <td width="100%" valign="middle">
+                  <papertitle>Deep learning based uncertainty decomposition for real-time control
+                <br>
+                Neha Das, Jonas Umlauft, Armin Lederer, <strong>Alexandre Capone</strong>, Thomas Beckers, Sandra Hirche
+                <br>
+                <em>IFAC World Congress</em> 2023
+                <br>
+                <a href="https://arxiv.org/pdf/2010.02613">arXiv</a> / 
+                <a href="https://mediatum.ub.tum.de/doc/1711535/1711535.pdf">pdf</a> 
+                <!-- <a href="https://diffusion-es.github.io/">website</a>  -->
+  
+              </td>
+            </tr>
+            
+            <tr>
+              <!-- <td style="padding:20px;width:25%;vertical-align:middle">
+                <embed src="file_name.pdf" width="800px" height="2100px" />
+                <embed src="data/idea_SMPC (1)-1.png" alt="diffusion-es" width="240" height="120">
+              </td> -->
+              <td width="100%" valign="middle">
+                  <papertitle>Robust H∞ consensus for homogeneous multi-agent systems with parametric uncertainties
+                <br>
+                <strong>Alexandre Capone</strong>, Junjie Jiao, Mostafa Zarei, Shiqi Zhang, Sandra Hirche
+                <br>
+                <em>American Control Conference</em> 2023
+                <br>
+                <!-- <a href="https://arxiv.org/abs/2310.02942">arXiv</a> /  -->
+                <a href="https://mediatum.ub.tum.de/doc/1717852/wwo1equgvk3litqycb3x6c20k.2023_ACC_Robust_H2_consensus.pdf">pdf</a> / 
+                <!-- <a href="https://diffusion-es.github.io/">website</a>  -->
+  
+              </td>
+            </tr>
+            
+            <tr>
+              <!-- <td style="padding:20px;width:25%;vertical-align:middle">
+                <embed src="file_name.pdf" width="800px" height="2100px" />
+                <embed src="data/idea_SMPC (1)-1.png" alt="diffusion-es" width="240" height="120">
+              </td> -->
+              <td width="100%" valign="middle">
+                  <papertitle>Structure-preserving
+                    learning using Gaussian processes and variational integrators
+                <br>
+                Jan Brüdigam, Martin Schuck, <strong>Alexandre Capone</strong>, Sandra Hirche
+                <br>
+                <em>L4DC</em> 2022
+                <br>
+                <a href="https://arxiv.org/abs/2112.05451">arXiv</a> / 
+                <a href="https://proceedings.mlr.press/v168/brudigam22a/brudigam22a.pdf">pdf</a> / 
+                <!-- <a href="https://diffusion-es.github.io/">website</a>  -->
+  
+              </td>
+            </tr>
+            
+            <tr>
+              <!-- <td style="padding:20px;width:25%;vertical-align:middle">
+                <embed src="file_name.pdf" width="800px" height="2100px" />
+                <embed src="data/idea_SMPC (1)-1.png" alt="diffusion-es" width="240" height="120">
+              </td> -->
+              <td width="100%" valign="middle">
+                  <papertitle>Gaussian process-based stochastic model predictive control for overtaking in autonomous racing
+                <br>
+                Tim Brüdigam, <strong>Alexandre Capone</strong>, Sandra Hirche, Dirk Wollherr, Marion Leibold
+                <br>
+                <em> ICRA 2021 Workshop - Opportunities
+                  and Challenges with Autonomous Racing</em>
+                <br>
+                <a href="https://arxiv.org/abs/2105.12236">arXiv</a> 
+                <!-- <a href="https://arxiv.org/pdf/2402.06559.pdf">pdf</a> /  -->
+                <!-- <a href="https://diffusion-es.github.io/">website</a>  -->
+  
+              </td>
+            </tr>
+            
+            <tr>
+              <!-- <td style="padding:20px;width:25%;vertical-align:middle">
+                <embed src="file_name.pdf" width="800px" height="2100px" />
+                <embed src="data/idea_SMPC (1)-1.png" alt="diffusion-es" width="240" height="120">
+              </td> -->
+              <td width="100%" valign="middle">
+                  <papertitle>The impact of data on the stability of learning-based control
+                <br>
+                Armin Lederer, <strong>Alexandre Capone</strong>, Thomas Beckers, Jonas Umlauft, Sandra Hirche
+                <br>
+                <em>L4DC</em> 2021
+                <br>
+                <a href="https://arxiv.org/abs/2011.10596">arXiv</a> / 
+                <a href="https://proceedings.mlr.press/v144/lederer21a/lederer21a.pdf">pdf</a> 
+                <!-- <a href="https://diffusion-es.github.io/">website</a>  -->
+  
+              </td>
+            </tr>
+            
+            <tr>
+              <!-- <td style="padding:20px;width:25%;vertical-align:middle">
+                <embed src="file_name.pdf" width="800px" height="2100px" />
+                <embed src="data/idea_SMPC (1)-1.png" alt="diffusion-es" width="240" height="120">
+              </td> -->
+              <td width="100%" valign="middle">
+                  <papertitle>Day-ahead Scheduling of Thermal Storage
+                    Systems Using Bayesian Neural Networks
+                <br>
+                <strong>Alexandre Capone</strong>, Conrad Helminger, Sandra Hirche
+                <br>
+                <em>IEEE Transactions on Automatic Control</em> 2024
+                <br>
+                <!-- <a href="https://arxiv.org/abs/2310.02942">arXiv</a> /  -->
+                <a href="https://mediatum.ub.tum.de/doc/1600318/cep422v5musa3lk0p0t9uksgm.root.pdf">pdf</a> 
+                <!-- <a href="https://diffusion-es.github.io/">website</a>  -->
+  
+              </td>
+            </tr>
+            
+            <tr>
+              <!-- <td style="padding:20px;width:25%;vertical-align:middle">
+                <embed src="file_name.pdf" width="800px" height="2100px" />
+                <embed src="data/idea_SMPC (1)-1.png" alt="diffusion-es" width="240" height="120">
+              </td> -->
+              <td width="100%" valign="middle">
+                  <papertitle>Confidence Regions for Predictions of Online Learning-Based Control
+                <br>
+                <strong>Alexandre Capone</strong>, Armin Lederer, Sandra Hirche
+                <br>
+                <em>IFAC World Congress</em> 2020
+                <br>
+                <!-- <a href="https://arxiv.org/abs/2310.02942">arXiv</a> /  -->
+                <a href="https://pdf.sciencedirectassets.com/313346/1-s2.0-S2405896321X0002X/1-s2.0-S2405896320316803/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEN3%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJGMEQCIDPrCd%2B0UTHk8gJ2JOnnShWksUd9t6OSq%2Fdkds61GH89AiA1guFgt4Mks9TTAw3DvN5ZOrD1fiIkLZntyJ3RF6WzuyqyBQg2EAUaDDA1OTAwMzU0Njg2NSIMOVhJavTS8cbFB8n1Ko8FGu72IT%2F406ALxCQE2XnP5DUv5O6YERWxDsX%2BMPa8LsW%2BxjChW2AwAl2no2sXzxfQwuRnkTw2g68AJC0jD90Km0VOagkYssiE%2FzrKfR5sWZ0%2BfLUxAz5G25VBCzwe2xtW1yzGQBNWXQMbiQkZ3NegKr29mIVZaj%2F8HeMd6KyMDd1CtipvU8Y%2F1goo9JvcGJKrJ0iAiEg%2FtKlK9RMju5RYdPp15L8tmLrdWwYEtZHiEQLoK92MwaCwUYnH%2BOczXAUjGtUt7yJKIw%2FTgeEvmZP7ig6TUUfp%2BiLqd12XwQlgzOaxKJeBmlDv5o7tlGL09iT0%2FXKg5NoDvl6E%2B7euuFa8dmnZGzcqrD2O1i4nfRGE5iYT1vwGGXsc5Hct%2Bn0GIVgvwhwLJwO6LxmQggO0W1BUCd%2B1kesVZtS%2BlZeeKT1FAyy0ykGDyF8tiDs26X4iDx%2FgBubG%2BkUNNKCNTWKArWdSuSZv4PljkK8R4WBt38tSXWj7ehq0amYMAjv6QlidYwjCDBRiLJ%2FmIiPmIz1EBs0iIILwaP7WrLqdxc7oFk9auHcIecjya5MGQtzOgImwI4%2F8umrG1anrByYiKKk%2FI0W138soJNXRbEFPCjT%2BrNlvsCKSBZdiAAeKEbxbkI5ZSU8xN0W7DG7WJs%2B6inH1wQMaBq7bpgJ1kv8bVu1URRKI7sc3c6ELEyBkQYOWv47N3l5EdSjb79qEe0Df6OBhCxoceUBPkiDWsVFdxKUMpjDQUhbqICfc9bu7SQbcSZp7KKJtSfF501B8%2FpuAs%2F5C78YQZErovhSKp6ynCwyVkEp8ESHu2i4%2Fit8jP2vhwIF6NHuN7og7gJcouc5HflppYSKtMbu8gwGNvGChq24vyxtiWjCmjpG4BjqyAXtfYmnnUPLW%2FmtQtPCDCBMqxRJLHh%2FAqa86frBsb4VrZ%2BdfhJritk5%2FA5TnoQR9CZn8hv%2BTnHqnoB3tpQgJ%2BTbOXs1VwkE3s2HHD%2Bq2SeEVumsX2j23UuAq0Cmct16KJwwXorbF0DNmiz41OBVJXQB4s6lI%2FjazYrLTd0rqrfprwlF3OUNCd%2BAuEd9VOasfWFB5HNOpw8fDCdF9ohq0KbeuCK4YF3MswZ1%2FZp4FdCpv8N0%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20241007T222404Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY5UIQGDD5%2F20241007%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=ee78b679431c7a47cbde285705507f082b0474a23eb3501ea66e55d1d835401d&hash=27ca157bf28ffcf37001e326fa7d902f86b37f543f72f146feb694285848a0fa&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S2405896320316803&tid=spdf-750b774a-03c9-4cb5-b7ab-8fd4ba19b801&sid=3b2de72a9b8f43491529ce2086e65b395e60gxrqa&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=17115805055e57015c&rr=8cf14c9cfbe0433f&cc=us">pdf</a> 
+                <!-- <a href="https://diffusion-es.github.io/">website</a>  -->
+  
+              </td>
+            </tr>
+            
+            <tr>
+              <!-- <td style="padding:20px;width:25%;vertical-align:middle">
+                <embed src="file_name.pdf" width="800px" height="2100px" />
+                <embed src="data/idea_SMPC (1)-1.png" alt="diffusion-es" width="240" height="120">
+              </td> -->
+              <td width="100%" valign="middle">
+                  <papertitle>Localized Active Learning of Gaussian Process State Space Models
+                <br>
+                <strong>Alexandre Capone</strong>, Jonas Umlauft, Thomas Beckers, Armin Lederer, Sandra Hirche
+                <br>
+                <em>L4DC</em> 2020
+                <br>
+                <a href="https://arxiv.org/abs/2005.02191">arXiv</a> / 
+                <a href="https://proceedings.mlr.press/v120/capone20a/capone20a.pdf">pdf</a> / 
+                <!-- <a href="https://diffusion-es.github.io/">website</a>  -->
+  
+              </td>
+            </tr>
+            
+            <tr>
+              <!-- <td style="padding:20px;width:25%;vertical-align:middle">
+                <embed src="file_name.pdf" width="800px" height="2100px" />
+                <embed src="data/idea_SMPC (1)-1.png" alt="diffusion-es" width="240" height="120">
+              </td> -->
+              <td width="100%" valign="middle">
+                  <papertitle>Anticipating the long-term effect of online learning in control
+                <br>
+                <strong>Alexandre Capone</strong>, Sandra Hirche
+                <br>
+                <em>American Control Conference</em> 2020
+                <br>
+                <a href="https://arxiv.org/abs/2007.12377">arXiv</a> / 
+                <a href="https://mediatum.ub.tum.de/doc/1600316/gswk1cjl517rwsap5ewc2s98c.Anticipating%20learning%20in%20SOC.pdf">pdf</a> / 
+                <!-- <a href="https://diffusion-es.github.io/">website</a>  -->
+  
+              </td>
+            </tr>
+
+      
+            <tr>
+              <!-- <td style="padding:20px;width:25%;vertical-align:middle">
+                <embed src="file_name.pdf" width="800px" height="2100px" />
+                <embed src="data/idea_SMPC (1)-1.png" alt="diffusion-es" width="240" height="120">
+              </td> -->
+              <td width="100%" valign="middle">
+                  <papertitle>Localized Active Learning of Gaussian Process State Space Models
+                <br>
+                <strong>Alexandre Capone</strong>, Jonas Umlauft, Thomas Beckers, Armin Lederer, Sandra Hirche
+                <br>
+                <em>L4DC</em> 2020
+                <br>
+                <a href="https://arxiv.org/abs/2005.02191">arXiv</a> / 
+                <a href="https://proceedings.mlr.press/v120/capone20a/capone20a.pdf">pdf</a> / 
+                <!-- <a href="https://diffusion-es.github.io/">website</a>  -->
+  
+              </td>
+            </tr>
+                  
+            <tr>
+              <!-- <td style="padding:20px;width:25%;vertical-align:middle">
+                <embed src="file_name.pdf" width="800px" height="2100px" />
+                <embed src="data/idea_SMPC (1)-1.png" alt="diffusion-es" width="240" height="120">
+              </td> -->
+              <td width="100%" valign="middle">
+                  <papertitle>Parameter optimization for learning-based control of
+                    control-affine systems
+                <br>
+                Armin Lederer, <strong>Alexandre Capone</strong>, Sandra Hirche
+                <br>
+                <em>L4DC</em> 2020
+                <br>
+                <!-- <a href="https://arxiv.org/abs/2005.02191">arXiv</a> /  -->
+                <a href="https://proceedings.mlr.press/v120/lederer20a/lederer20a.pdf">pdf</a> 
+                <!-- <a href="https://diffusion-es.github.io/">website</a>  -->
+  
+              </td>
+            </tr>
+                  
+            <tr>
+              <!-- <td style="padding:20px;width:25%;vertical-align:middle">
+                <embed src="file_name.pdf" width="800px" height="2100px" />
+                <embed src="data/idea_SMPC (1)-1.png" alt="diffusion-es" width="240" height="120">
+              </td> -->
+              <td width="100%" valign="middle">
+                  <papertitle>Smart forgetting for
+                    safe online learning with Gaussian processes
+                <br>
+                Jonas Umlauft, Thomas Beckers, <strong>Alexandre Capone</strong>, Armin Lederer, Sandra Hirche
+                <br>
+                <em>L4DC</em> 2020
+                <br>
+                <a href="https://arxiv.org/abs/2005.02191">arXiv</a> / 
+                <a href="https://proceedings.mlr.press/v120/capone20a/capone20a.pdf">pdf</a> / 
+                <!-- <a href="https://diffusion-es.github.io/">website</a>  -->
+  
+              </td>
+            </tr>
+            
+   
+            <tr>
+              <!-- <td style="padding:20px;width:25%;vertical-align:middle">
+                <embed src="file_name.pdf" width="800px" height="2100px" />
+                <embed src="data/idea_SMPC (1)-1.png" alt="diffusion-es" width="240" height="120">
+              </td> -->
+              <td width="100%" valign="middle">
+                  <papertitle>Smart forgetting for
+                    safe online learning with Gaussian processes
+                <br>
+                Jonas Umlauft, Thomas Beckers, <strong>Alexandre Capone</strong>, Armin Lederer, Sandra Hirche
+                <br>
+                <em>L4DC</em> 2020
+                <br>
+                <!-- <a href="https://arxiv.org/abs/2005.02191">arXiv</a> /  -->
+                <a href="https://proceedings.mlr.press/v120/umlauft20a/umlauft20a.pdf">pdf</a> 
+                <!-- <a href="https://diffusion-es.github.io/">website</a>  -->
+  
+              </td>
+            </tr>
+            
+               
+            <tr>
+              <!-- <td style="padding:20px;width:25%;vertical-align:middle">
+                <embed src="file_name.pdf" width="800px" height="2100px" />
+                <embed src="data/idea_SMPC (1)-1.png" alt="diffusion-es" width="240" height="120">
+              </td> -->
+              <td width="100%" valign="middle">
+                  <papertitle>Interval observers for a class of nonlinear systems using Gaussian
+                    process models
+                <br>
+                 <strong>Alexandre Capone</strong>, Sandra Hirche
+                <br>
+                <em>European Control Conference</em> 2019
+                <br>
+                <!-- <a href="https://arxiv.org/abs/2005.02191">arXiv</a> /  -->
+                <a href="https://mediatum.ub.tum.de/doc/1519245/immsv5k21hi5r2fqdhzym5sqk.IntervalObserverwithGPs.pdf">pdf</a> 
+                <!-- <a href="https://diffusion-es.github.io/">website</a>  -->
+  
+              </td>
+            </tr>
+            
+               
+            <tr>
+              <!-- <td style="padding:20px;width:25%;vertical-align:middle">
+                <embed src="file_name.pdf" width="800px" height="2100px" />
+                <embed src="data/idea_SMPC (1)-1.png" alt="diffusion-es" width="240" height="120">
+              </td> -->
+              <td width="100%" valign="middle">
+                  <papertitle>An OPC UA-based Energy Management Platform
+                    for Multi-Energy Prosumers in District
+                <br>
+                Denis Bytschkow, <strong>Alexandre Capone</strong>, Jan Mayer, Michael Kramer, Thomas Licklederer
+                <br>
+                <em>ENERGYCON</em> 2019
+                <br>
+                <!-- <a href="https://arxiv.org/abs/2005.02191">arXiv</a> /  -->
+                <a href="https://mediatum.ub.tum.de/doc/1616374/xm3cy80bh6sjm6pa883j1mrdr.07_ISGT2019_published.pdf">pdf</a> 
+                <!-- <a href="https://diffusion-es.github.io/">website</a>  -->
+  
+              </td>
+            </tr>
+            
+
+
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
               <td style="padding:0px">
                 <br>
                 <p style="text-align:right;font-size:small;">
-                  Feel free to steal this website's <a href="https://github.com/jonbarron/jonbarron_website">source code</a>. <strong>Do not</strong> scrape the HTML from this page itself, as it includes analytics tags that you do not want on your own website &mdash; use the github code instead. Also, consider using <a href="https://leonidk.com/">Leonid Keselman</a>'s <a href="https://github.com/leonidk/new_website">Jekyll fork</a> of this page.
+                  I copied the template for this website from <a href="https://github.com/jonbarron/jonbarron_website">here</a>. 
                 </p>
               </td>
             </tr>
